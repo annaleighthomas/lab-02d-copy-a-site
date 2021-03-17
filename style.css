@@ -1,0 +1,30 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 8fr 1fr 1fr 1fr;
+  height: 55px;
+}
+
+div {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  grid-template-rows: 1fr 1fr;
+  height: 570px;
+  background-image: url(https://cdn-assets.alltrails.com/assets/hero-images/Home-Hero-1-Large-1550x885-9d224c1181d0d606bfbc8de11b07d6f9.jpg);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
